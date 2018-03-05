@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>One page</title>
+</head>
+
+<body>
+    <section id="head-wrap">
+        <div class="links1">
+            <ul>
+                <a href="#1" class="link">Home</a>
+                <a href="#about" class="link">About Us</a>
+                <a href="#social" class="link">Social</a>
+                <a href="#contact" class="link">Contact</a>
+            </ul>
+        </div>
+        <div class="head-wrap-text">
+            <h1>Premium & Quality Tradition</h1>
+            <h2>Since 1776</h2>
+        </div>
+
+    </section>
+
+    <div id="about">
+        <div class="secondL">
+            <h2>Meet our Team</h2>
+        </div>
+
+        <div class="photos3">
+            <div class="politi">
+                <img src="JohnF.jpg" class="john" />
+                <h3>John F Kennedy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aliquam nam delectus ullam. Aperiam, debitis
+                    maiores fugiat animi, magni laudantium tenetur nostrum ipsum suscipit atque ut aut facere culpa corporis.</p>
+
+            </div>
+            <div class="politi">
+                <img src="JosipT.jpg" class="josip" />
+                <h3>Josip Broz Tito</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aliquam nam delectus ullam. Aperiam, debitis
+                    maiores fugiat animi, magni laudantium tenetur nostrum ipsum suscipit atque ut aut facere culpa corporis.</p>
+
+            </div>
+            <div class="politi">
+                <img src="OlofP.jpg" class="olof" />
+                <h3>Olof Palmé</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aliquam nam delectus ullam. Aperiam, debitis
+                    maiores fugiat animi, magni laudantium tenetur nostrum ipsum suscipit atque ut aut facere culpa corporis.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="social">
+        <section class="fourP">
+            <div class="photos4">
+                <img src="EgyptianPyramids.jpg" class="firstL" />
+                <img src="Kukulkan.jpg" class="secondLl" />
+                <img src="meenakshi.jpg" class="thirdL" />
+                <img src="Nubian.jpg" class="fourthL" />
+            </div>
+            <div class="instagramLogo">
+                <a href="#" class="fa fa-instagram">FOLLOW US ON INSTAGRAM</a>
+            </div>
+        </section>
+    </div>
+
+    <div id="contact">
+        <section class="thirdLine">
+
+            <div class="contact">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="textAk">
+                <div class="textArea tA">
+                    <textarea placeholder="Name..."></textarea>
+                </div>
+                <div class="textArea2 tA">
+                    <textarea placeholder="contact@emial.com"></textarea>
+
+                </div>
+                <div class="TextArea3 tA">
+                    <textarea class="bigTa" placeholder="Message..."></textarea>
+
+                </div>
+
+                <button type="button" class="button">
+                    <a href="#">SEND</a>
+                </button>
+
+            </div>
+
+            <div class="textAk">
+                <div class="googleMap">
+                    <div id="map"></div>
+                    <script>
+                        function initMap() {
+                            var location = { lat: 38.871857, lng: -77.056267 };
+                            var map = new google.maps.Map(document.getElementById("map"), {
+                                zoom: 14,
+                                center: location
+                            });
+                        }
+                    </script>
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcKUPXfTnlL8pz41Ns-EgLVz1Iss8dZfo&callback=initMap
+                "></script>
+                    <p>Washington, DC 22202, USA</p>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <footer class="footerT">
+        <div>
+            <ul class="x">
+                <a href="#" class="badgets">Home</a>
+                <a href="#about" class="badgets">About Us</a>
+                <a href="#" class="fa fa-tumblr"></a>
+                <a href="#social" class="badgets">Social</a>
+                <a href="#contact" class="badgets">Contact</a>
+            </ul>
+        </div>
+        <div class="badgetGroup">
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+
+        </div>
+
+        <div class="footer_text">
+            <p>&COPY; Copyright 2018, All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

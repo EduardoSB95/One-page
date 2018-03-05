@@ -1,0 +1,213 @@
+body {
+    margin: 0px;
+    margin-top: -16px;
+}
+
+#head-wrap {
+    height: 545px;
+    width: 100%;
+    background: linear-gradient( RGBA(100, 58, 99, .9), RGBA(128, 0, 128, .9)), url("lastSupper.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#head-wrap .head-wrap-text {
+    width: auto;
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+}
+
+.links1 {
+    text-align: right;
+    padding-right: 25px;
+    color: white;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.links1 .link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+.secondL {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 43px;
+}
+
+
+.photos3 {
+    text-align: center;
+    padding-bottom: 20px;
+   
+}
+
+.photos3 .politi {
+    display: inline-block;
+}
+
+.photos3 img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 25px;
+    margin-bottom: 0px;
+}
+
+.photos3 p {
+    width: 230px;
+    align-items: center;
+}
+
+.fourP {
+    background-color: rgb(236, 230, 230);
+}
+
+.photos4 img {
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+}
+
+.photos4 {
+    text-align: center;
+}
+
+.instagramLogo {
+    text-align: center;
+    padding-bottom: 28px;
+}
+
+.fa {
+    font-size: 30px;
+    background-color: rgb(243, 239, 239);
+    color: dimgrey;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+}    
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.thirdLine {
+    background-color: purple;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 60px;
+}
+
+.contact h2 {
+    margin-top: 0px;
+    padding-top: 75px;
+}
+
+.textAk {
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+#map {
+    height: 200px;
+    width: 320px;
+    border-radius: 3px;
+}
+
+.tA textarea {
+    width: 320px;
+}
+
+.tA {
+    padding: 8.5px;
+}
+
+.button {
+    width: 326px;
+    height: 36px;
+    background-color: rgb(51, 46, 46);
+    border: none;
+    border-radius: 3px;
+}
+
+.button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.bigTa {
+    height: 72px;
+}
+
+textarea {
+    border-radius: 3px; 
+}
+
+.footerT {
+    background-color: rgb(77, 72, 72);
+    padding-top: 30px;
+}
+
+.footerT a {
+    margin-top: 0px;
+}
+    
+ .footer_text {
+    color: rgb(161, 164, 165);
+    text-align: center;
+    margin-bottom: 0 auto;
+    
+}
+
+.footer_text p {
+    margin: 0 auto;
+    padding: auto;
+    background-color: rgb(51, 46, 46);
+}
+.x { 
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 3px;
+}
+
+.x li {
+    display: inline-block;
+    margin-left: 90px;
+}
+
+.x .badgets {
+    color: white;
+    text-decoration: none;
+}
+
+.x .fa {
+    border-radius: 50%;
+    background: purple;
+}
+
+.badgetGroup {
+    text-align: center;
+    padding-bottom: 33px;
+}
+
+.badgetGroup a {
+    border-radius: 50%;
+
+}
+
+
+
