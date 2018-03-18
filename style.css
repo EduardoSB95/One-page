@@ -3,10 +3,11 @@ body {
     margin-top: -16px;
 }
 
+/* This is the header */
 #head-wrap {
     height: 545px;
     width: 100%;
-    background: linear-gradient( RGBA(100, 58, 99, .9), RGBA(128, 0, 128, .9)), url("lastSupper.jpg");
+    background: linear-gradient( RGBA(100, 58, 99, .9), RGBA(128, 0, 128, .9)), url("img/lastSupper.jpg"); /*"LasSupper" underneath colored transparent layer */
     background-position: center;
     background-size: cover;
     position: relative;
@@ -38,7 +39,7 @@ body {
     text-decoration: underline;
 }
 
-
+/* This is the main body */
 .secondL {
     width: 100%;
     height: 100%;
@@ -121,7 +122,8 @@ body {
     
 }
 
-#map {
+
+#map { /* Map adjustments */
     height: 200px;
     width: 320px;
     border-radius: 3px;
@@ -156,6 +158,7 @@ textarea {
     border-radius: 3px; 
 }
 
+/* This is the footer */
 .footerT {
     background-color: rgb(77, 72, 72);
     padding-top: 30px;
