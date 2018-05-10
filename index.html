@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <title>One page</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115160320-1"></script>
@@ -23,10 +25,14 @@
 </head>
 
 <body>
+
+    <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+
     <!-- This is the header -->
     <section id="head-wrap">
         <div class="links1">
             <ul>
+                <!-- Change #1 to index.html -->
                 <a href="#1" class="link">Home</a>
                 <a href="#about" class="link">About Us</a>
                 <a href="#social" class="link">Social</a>
@@ -39,7 +45,7 @@
         </div>
 
     </section>
-        <!-- This is the main body -->
+    <!-- This is the main body -->
     <div id="about">
         <div class="secondL">
             <h2>Meet our Team</h2>
@@ -113,7 +119,7 @@
                 <div class="googleMap">
                     <div id="map"></div>
                     <!-- Google map script insert-->
-                    <script>
+                    <!--<script>
                         function initMap() {
                             var location = { lat: 38.871857, lng: -77.056267 };
                             var map = new google.maps.Map(document.getElementById("map"), {
@@ -121,9 +127,8 @@
                                 center: location
                             });
                         }
-                    </script>
-                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcKUPXfTnlL8pz41Ns-EgLVz1Iss8dZfo&callback=initMap
-                "></script>
+                    </script>-->
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcKUPXfTnlL8pz41Ns-EgLVz1Iss8dZfo&callback=initMap"></script>
                     <p>Washington, DC 22202, USA</p>
                 </div>
             </div>
@@ -154,6 +159,9 @@
 
     </footer>
 
+
+
+    <script src="app.js"></script>
 </body>
 
 </html>
